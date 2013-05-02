@@ -1,0 +1,150 @@
+#magazine-scrutiny-content {
+    position: relative;
+    height: 445px;
+    width: 100%;
+    max-width: 838px;
+    float: right;
+    background: -moz-linear-gradient(left,  rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,1)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+    background: linear-gradient(to right,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+}
+#magazine-scrutiny-inner {
+    position: relative;
+    top: 69px;
+    float: right;
+    margin-right: 80px;
+    background: -moz-linear-gradient(left,  rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* IE10+ */
+    background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
+    padding: 25px;
+    font-size: 115%;
+    line-height: 150%;
+    width: 640px;
+}
+#magazine-secondary #magazine-nav {
+    margin: 15px 0 15px 15px;
+}
+.magazine-story-container {
+    width: 50%;
+    float: left;
+}
+.magazine-category {
+    margin-left: 15px;
+}
+.magazine-category .magazine-story {
+    width: 50%;
+}
+/*
+magazine-more
+*/
+
+#magazine-more {
+    margin: 0px auto;
+    width: 960px;
+    padding-top: 45px;
+}
+
+#magazine-more .other_issues {
+    width: 62%;
+    float: left;
+}
+
+#magazine-more .issue {
+    margin-bottom: 20px;
+}
+
+#magazine-more .mag_cover {
+    width: 68%;
+}
+
+#magazine-more .other_articles {
+    width: 32%;
+    float: left;
+}
+
+#magazine-more .mag_cover .cover_image, #magazine-more .mag_cover .preview {
+    float: left;
+}
+
+#magazine-more .mag_cover .cover_image {
+    width: 150px;
+    height: 195px;
+}
+
+#magazine-more .mag_cover .preview {
+    width: 52%;
+    padding: 0% 8% 0% 2%;
+}
+
+#magazine-more .issue:before, #magazine-more .issue:after {
+    display: table;
+    content: "";
+}
+
+#magazine-more .issue:after {
+    clear: both;
+}
+
+#magazine-more .preview h2 {
+    /*
+        TODO: Make it not bold
+    */
+}
+
+#magazine-more .sidekick-shell {
+    width: 300px;
+    height: 250px;
+    float: right;
+}
+
+.magazine-category .magazine-story .magazine-story-inner {
+    width: 240px;
+    margin: 0px auto;
+}
+
+
+
+@media (max-width: 480px) {
+    .magazine-cover-story.magazine-story.article img {
+        width: 75px;
+        hegiht: 71px;
+    }
+}
+
+@media (max-width: 484px) {
+    .magazine-story-container .magazine-story.article {
+        width: 100%;
+    }
+}
+
+@media (max-width: 960px) {
+    .magazine-story-container {
+        /*float: none;*/
+        margin: 0px auto;
+        width: 100%;
+    }
+    .magazine-category .magazine-story {
+        /*float: none;*/
+    }
+    #magazine-secondary {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+

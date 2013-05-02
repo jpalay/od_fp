@@ -19,7 +19,7 @@ body {
     margin: 0;
     padding: 0;
     font: 0.9em/1.3em 'Vollkorn', Georgia, serif;
-    background: white url('https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/header.png') repeat-x;
+    background: white url('images/header.png') repeat-x;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Crimson', Georgia, serif;
@@ -77,7 +77,7 @@ General section box paradigm
 .section-box h2.section-header {
     position: relative;
     right: 21px;
-    background: transparent url('https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/section-header.png') no-repeat 0 -10px;
+    background: transparent url('images/section-header.png') no-repeat 0 -10px;
     height: 84px;
     text-align: left;
     padding-top: 25px;
@@ -148,7 +148,7 @@ General article paradigm
     font: 0.85em 'Colaborate Light', 'Lucida Sans Unicode', sans-serif;
     color: #999;
     text-transform: uppercase;
-    background: transparent url('https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/chatterbox.png') center left no-repeat;
+    background: transparent url('images/chatterbox.png') center left no-repeat;
     padding-left: 15px;
 }
 .article-comments a:hover, .article-comments a:active {
@@ -235,7 +235,7 @@ General section page paradigm
     clear: both;
 }
 #upper #section-bar {
-    background: transparent url('https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/section-nav.jpg') bottom right no-repeat;
+    background: transparent url('images/section-nav.jpg') bottom right no-repeat;
     zoom: 1;
     margin: 15px 0;
 }
@@ -458,10 +458,10 @@ ul.pager li, #body ul.list-actions li {
     line-height: 225%;
 }
 #body ul#article-actions li.action-email a {
-    background: transparent url('https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/envelope.png') no-repeat;
+    background: transparent url('images/envelope.png') no-repeat;
 }
 #body ul#article-actions li.action-print a {
-    background: transparent url('https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/printer.png') no-repeat;
+    background: transparent url('images/printer.png') no-repeat;
 }
 #body ul#article-actions li.action-social a {
     line-height: 225%;
@@ -484,7 +484,7 @@ ul.pager li, #body ul.list-actions li {
     padding-left: 17px;
     float: right;
     clear: both;
-    background: transparent url('https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/camera.png') no-repeat;
+    background: transparent url('images/camera.png') no-repeat;
 }
 #body #article-image-side p.article-image-caption {
     margin: 0;
@@ -680,7 +680,7 @@ Media-specific styles
 Header
 */
 header {
-    background: transparent url('https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/masthead-inner.jpg') no-repeat top center;
+    background: transparent url('images/masthead-inner.jpg') no-repeat top center;
 }
 header h1 {
     margin: 0;
@@ -689,7 +689,7 @@ header h1 a {
     display: block;
     width: 320px;
     height: 50px;
-    background: transparent url('https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/thc-logo.png') no-repeat;
+    background: transparent url('images/thc-logo.png') no-repeat;
     text-indent: -9999px;
 }
 #masthead {
@@ -815,7 +815,7 @@ Subnav
 Content
 */
 #content {
-    background: transparent url('https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/body.jpg') no-repeat top center;
+    background: transparent url('images/body.jpg') no-repeat top center;
 }
 #content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
     margin: 0;
@@ -999,7 +999,7 @@ Magazine
     font-size: 125%;
 }
 #magazine-primary {
-    background: #541412 url('https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/fm-primary.jpg') repeat-x;
+    background: #541412 url('images/fm-primary.jpg') repeat-x;
     padding-bottom: 50px;
 }
 #magazine-secondary, #magazine-tertiary {
@@ -1036,7 +1036,7 @@ Magazine
 #magazine h1 {
     text-indent: -9999px;
     margin: 0 0 0 108px;
-    background: transparent url('https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/fm-header.png') no-repeat;
+    background: transparent url('images/fm-header.png') no-repeat;
     height: 179px;
     width: 253px;
 }
@@ -1119,7 +1119,7 @@ Magazine
     float: right;
 }
 #magazine-primary-second {
-    background: transparent url('https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/fm-texture.png') repeat-both;
+    background: transparent url('images/fm-texture.png') repeat-both;
     width: 33%;
     float: right;
 }
@@ -1128,7 +1128,7 @@ Magazine
     width: 320px;
 }
 #magazine-cover-stories {
-    background: transparent url('https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/fm-texture.jpg') repeat-both;
+    background: transparent url('images/fm-texture.jpg') repeat-both;
 }
 #magazine-cover-stories h3, #magazine-cover-feature h3 {
     background-color: #541412;
@@ -1193,7 +1193,7 @@ Magazine
     color: #b0807e;
 }
 #magazine-secondary {
-    background: transparent url('https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/fm-texture.png') repeat-both;
+    background: transparent url('images/fm-texture.png') repeat-both;
     margin-top: -51px;
 }
 #magazine-secondary #magazine-nav {
@@ -1262,7 +1262,7 @@ Magazine
     box-shadow: 0 3px 3px #eee;
 }
 #magazine-tertiary {
-    background: transparent url('https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/fm-texture.png') repeat-x 0 -100px;
+    background: transparent url('images/fm-texture.png') repeat-x 0 -100px;
     margin-bottom: 25px;
 }
 #magazine-tertiary-first, #magazine-tertiary-second, #magazine-tertiary-third {
@@ -1492,7 +1492,7 @@ Most read and more news
 Footer
 */
 footer {
-    background: transparent url('https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/footer.jpg') bottom left no-repeat;
+    background: transparent url('images/footer.jpg') bottom left no-repeat;
     font: 1em 'Colaborate Light', 'Lucida Sans Unicode', sans-serif;
     zoom: 1;
     margin: 15px;
@@ -1528,7 +1528,7 @@ footer h1 {
 footer h1 a {
     width: 319px;
     height: 63px;
-    background: transparent url('https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/footer-title.png') no-repeat;
+    background: transparent url('images/footer-title.png') no-repeat;
     text-indent: -9999px;
     display: block;
     margin: 0 auto;
@@ -1820,7 +1820,7 @@ Media query: Boilerplates for landscape phone to landscape tablet and desktop
     }
     /* Section box */
     .section-box {
-        background: #feffea url('https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/divider.png') repeat-y 50% 0%;
+        background: #feffea url('images/divider.png') repeat-y 50% 0%;
         margin: 0 10px 15px;
     }
     .section-box .section-feature img {
@@ -2192,7 +2192,7 @@ Media query: Large desktop
     }
     /* Section box */
     .section-box {
-        background: #feffea url('https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/divider.png') repeat-y 61.9% 0%;
+        background: #feffea url('images/divider.png') repeat-y 61.9% 0%;
     }
     .section-box#section-opinion {
         background-image: none;
