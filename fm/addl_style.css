@@ -78,10 +78,6 @@
     background-color: white;
 }
 
-#magazine-nav ul li:last-child {
-    display: none;
-}
-
 #magazine-secondary .magazine-mobile-nav {
     display: none;
     margin-bottom: 0px;
@@ -402,10 +398,6 @@ magazine-more
     #magazine-secondary #magazine-nav ul li, #magazine-secondary .magazine-nav.magazine-mobile-nav ul li {
         width: 50%;
     }
-    #magazine-nav ul li:last-child {
-        display: block;
-    }
-
     #magazine-secondary #magazine-nav ul li a, #magazine-secondary .magazine-nav.magazine-mobile-nav ul li a {
         margin-right: 0px;
         padding-right: 0px;

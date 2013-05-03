@@ -11,7 +11,4 @@ $(document).ready(function() {
         console.log($('#magazine-secondary #magazine-nav'));
         $(this).toggleClass('active');
     });
-    $('#magazine-nav ul li:last-child').click(function() {
-        event.preventDefault();
-    })
 });
