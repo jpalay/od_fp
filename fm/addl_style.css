@@ -111,31 +111,38 @@ magazine-more
 }
 
 
-
-@media (max-width: 480px) {
+@media (min-width: 300px) and (max-width: 480px) {
     .magazine-cover-story.magazine-story.article img {
         width: 75px;
-        hegiht: 71px;
+        height: 71px;
     }
-}
 
-@media (max-width: 484px) {
     .magazine-story-container .magazine-story.article {
         width: 100%;
-    }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 880px) {
     .magazine-story-container {
         /*float: none;*/
         margin: 0px auto;
         width: 100%;
     }
     .magazine-category .magazine-story {
-        /*float: none;*/
     }
     #magazine-secondary {
         width: 100%;
+    }
+}
+
+@media (min-width: 880px) and (max-width: 960px) {
+    #magazine-secondary .magazine-category {
+        margin: 0 auto;
+        width: 100%;
+
+    }
+    
+    .magazine-category .magazine-story-container .magazine-story {
+        width: 50%;
     }
 }
 
