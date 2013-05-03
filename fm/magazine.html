@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="fonts.css" type="text/css" />
     <link rel="stylesheet" href="style.css" type="text/css" />
     <link rel="stylesheet" href="addl_style.css" type="text/css" />
-    <script type="text/javascript" src="https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/jquery.js"></script>
-    <script type="text/javascript" src="https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/mobile.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="mobile.js"></script>
 </head>
 <body>
     <header>
@@ -64,13 +64,13 @@
             </div>
         </div>
         <div class="leaderboard">
-            <img src="https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/leaderboard.jpg" alt="Leaderboard" />
+            <img src="images/leaderboard.jpg" alt="Leaderboard" />
         </div>
         <div id="magazine">
             <section id="magazine-primary">
                 <div id="magazine-primary-first">
                     <div id="magazine-spread">
-                        <a href="#"><img src="https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/fm-spread.jpg" alt="Spread" /></a>
+                        <a href="#"><img src="images/fm-spread.jpg" alt="Spread" /></a>
                     </div>
                     <div id="magazine-primary-first-content">
                         <div id="magazine-scrutiny">
@@ -93,17 +93,17 @@
                         <div id="magazine-cover-stories">
                             <h3>What We're Reading</h3>
                             <div class="magazine-cover-story magazine-story article">
-                                <a href="#"><img src="https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/fm-wwr.jpg" alt="Cover story" /></a>
+                                <a href="#"><img src="images/fm-wwr.jpg" alt="Cover story" /></a>
                                 <h4><a href="#">Mary Walker's Family Story</a></h4>
                                 <div class="magazine-byline article-byline"><a href="#">Beth E. Braiterman</a> and <a href="#">Ginny C. Fahs</a></div>
                             </div>
                             <div class="magazine-cover-story magazine-story article">
-                                <a href="#"><img src="https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/fm-wwr.jpg" alt="Cover story" /></a>
+                                <a href="#"><img src="images/fm-wwr.jpg" alt="Cover story" /></a>
                                 <h4><a href="#">Mary Walker's Family Story</a></h4>
                                 <div class="magazine-byline article-byline"><a href="#">Beth E. Braiterman</a> and <a href="#">Ginny C. Fahs</a></div>
                             </div>
                             <div class="magazine-cover-story magazine-story article">
-                                <a href="#"><img src="https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/fm-wwr.jpg" alt="Cover story" /></a>
+                                <a href="#"><img src="images/fm-wwr.jpg" alt="Cover story" /></a>
                                 <h4><a href="#">Mary Walker's Family Story</a></h4>
                                 <div class="magazine-byline article-byline"><a href="#">Beth E. Braiterman</a> and <a href="#">Ginny C. Fahs</a></div>
                             </div>
@@ -111,7 +111,7 @@
                         <div id="magazine-cover-feature">
                             <h3>Fifteen Questions</h3>
                             <div class="magazine-cover-story magazine-story article">
-                                <a href="#"><img src="http://lorempixel.com/300/284/people/1/" alt="Cover story" /></a>
+                                <a href="#"><img src="images/lorempixel.jpeg" alt="Cover story" /></a>
                                 <h4><a href="#">15 Questions with Henry Kissinger</a></h4>
                                 <div class="magazine-byline article-byline"><a href="#">Beth E. Braiterman</a> and <a href="#">Ginny C. Fahs</a></div>
                             </div>
@@ -120,27 +120,33 @@
                 </div>
             </section>
             <section id="magazine-secondary">
-                <nav id="magazine-nav">
+                <nav id="mobile-magazine-nav" class="magazine-nav magazine-mobile-nav">
+                    <ul>
+                        <li><a href="#">Tabs</a></li>
+                    </ul>
+                </nav>
+                <nav id="magazine-nav" class="magazine-nav mobile-hidden">
                     <ul>
                         <li><a href="#">Levity</a></li>
                         <li><a href="#">Around Town</a></li>
                         <li><a href="#" class="active">Retrospection</a></li>
                         <li><a href="#">Introspection</a></li>
                         <li><a href="#">Conversations</a></li>
+                        <li><a href="#">&nbsp</a></li>
                     </ul>
                 </nav>
                 <div class="magazine-category category-active">
                     <div class="magazine-story-container" id="first-magazine-story-container">
                         <div class="magazine-story article">
                                 <div class="magazine-story-inner">
-                                <a href="#"><img src="https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/fm-story.jpg" alt="Story" /></a>
+                                <a href="#"><img src="images/fm-story.jpg" alt="Story" /></a>
                                 <h4><a href="#">Five Questions with Arne Duncan '86</a></h4>
                                 <div class="magazine-byline article-byline"><a href="#">Maya Jonas-Silver</a></div>
                             </div>
                         </div>
                         <div class="magazine-story article">
                             <div class="magazine-story-inner">
-                                <a href="#"><img src="https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/fm-story.jpg" alt="Story" /></a>
+                                <a href="#"><img src="images/fm-story.jpg" alt="Story" /></a>
                                 <h4><a href="#">Five Questions with Arne Duncan '86</a></h4>
                                 <div class="magazine-byline article-byline"><a href="#">Maya Jonas-Silver</a></div>
                             </div>
@@ -156,7 +162,7 @@
                         </div>
                         <div class="magazine-story article">
                             <div class="magazine-story-inner">
-                                <a href="#"><img src="https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/fm-story.jpg" alt="Story" /></a>
+                                <a href="#"><img src="images/fm-story.jpg" alt="Story" /></a>
                                 <h4><a href="#">Five Questions with Arne Duncan '86</a></h4>
                                 <div class="magazine-byline article-byline"><a href="#">Maya Jonas-Silver</a></div>
                             </div>
@@ -168,13 +174,13 @@
                 <div id="magazine-tertiary-first">
                     <h3>In This Issue</h3>
                     <div class="magazine-story article">
-                        <a href="#"><img src="https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/fm-smaller-story.jpg" alt="Story" /></a>
+                        <a href="#"><img src="images/fm-smaller-story.jpg" alt="Story" /></a>
                         <div class="magazine-subsection article-subsection"><a href="#">Conversations</a></div>
                         <h4><a href="#">Taking Up Painter</a></h4>
                         <div class="magazine-byline article-byline"><span class="article-date">May 13, 2011</span></div>
                     </div>
                     <div class="magazine-story article">
-                        <a href="#"><img src="https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/fm-smaller-story.jpg" alt="Story" /></a>
+                        <a href="#"><img src="images/fm-smaller-story.jpg" alt="Story" /></a>
                         <div class="magazine-subsection article-subsection"><a href="#">Conversations</a></div>
                         <h4><a href="#">Taking Up Painter</a></h4>
                         <div class="magazine-byline article-byline"><span class="article-date">May 13, 2011</span></div>
@@ -183,25 +189,25 @@
                 <div id="magazine-tertiary-second">
                     <h3>Media</h3>
                     <div class="magazine-story article">
-                        <a href="#"><img src="https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/fm-smaller-story.jpg" alt="Story" /></a>
+                        <a href="#"><img src="images/fm-smaller-story.jpg" alt="Story" /></a>
                         <div class="magazine-subsection article-subsection"><a href="#">Conversations</a></div>
                         <h4><a href="#">Taking Up Painter</a></h4>
                         <div class="magazine-byline article-byline"><span class="article-date">May 13, 2011</span></div>
                     </div>
                     <div class="magazine-story article">
-                        <a href="#"><img src="https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/fm-smaller-story.jpg" alt="Story" /></a>
+                        <a href="#"><img src="images/fm-smaller-story.jpg" alt="Story" /></a>
                         <div class="magazine-subsection article-subsection"><a href="#">Conversations</a></div>
                         <h4><a href="#">Taking Up Painter</a></h4>
                         <div class="magazine-byline article-byline"><span class="article-date">May 13, 2011</span></div>
                     </div>
                     <div class="magazine-story article">
-                        <a href="#"><img src="https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/fm-smaller-story.jpg" alt="Story" /></a>
+                        <a href="#"><img src="images/fm-smaller-story.jpg" alt="Story" /></a>
                         <div class="magazine-subsection article-subsection"><a href="#">Conversations</a></div>
                         <h4><a href="#">Taking Up Painter</a></h4>
                         <div class="magazine-byline article-byline"><span class="article-date">May 13, 2011</span></div>
                     </div>
                     <div class="magazine-story article">
-                        <a href="#"><img src="https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/fm-smaller-story.jpg" alt="Story" /></a>
+                        <a href="#"><img src="images/fm-smaller-story.jpg" alt="Story" /></a>
                         <div class="magazine-subsection article-subsection"><a href="#">Conversations</a></div>
                         <h4><a href="#">Taking Up Painter</a></h4>
                         <div class="magazine-byline article-byline"><span class="article-date">May 13, 2011</span></div>
@@ -211,7 +217,7 @@
                     <h3>Endpapers</h3>
                     <div class="magazine-tertiary-inner">
                         <div class="magazine-story article">
-                            <a href="#"><img src="https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/fm-endpaper.jpg" alt="Story" /></a>
+                            <a href="#"><img src="images/fm-endpaper.jpg" alt="Story" /></a>
                             <h4><a href="#">Taking Up Painter</a></h4>
                             <div class="magazine-byline article-byline"><a href="#">Carrie J. Tian</a></div>
                         </div>
@@ -237,22 +243,22 @@
         </div>
         <section id="row">
             <div class="row article">
-                <a href="#"><img src="https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/arts-inrow.jpg" /></a>
+                <a href="#"><img src="images/arts-inrow.jpg" /></a>
                 <div class="row-section article-section"><a href="#">Arts</a></div>
                 <h3><a href="#">Dancing in the Street</a></h3>
             </div>
             <div class="row article">
-                <a href="#"><img src="https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/sports-inrow.jpg" /></a>
+                <a href="#"><img src="images/sports-inrow.jpg" /></a>
                 <div class="row-section article-section"><a href="#">Sports</a></div>
                 <h3><a href="#">Crimson Grapplers Struggle at Midlands</a></h3>
             </div>
             <div class="row article">
-                <a href="#"><img src="https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/fm-inrow.jpg" /></a>
+                <a href="#"><img src="images/fm-inrow.jpg" /></a>
                 <div class="row-section article-section"><a href="#">Magazine</a></div>
                 <h3><a href="#">Ten Questions with Diane L. Eck</a></h3>
             </div>
             <div class="row article">
-                <a href="#"><img src="https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/opinion-inrow.jpg" /></a>
+                <a href="#"><img src="images/opinion-inrow.jpg" /></a>
                 <div class="row-section article-section"><a href="#">Opinion</a></div>
                 <h3><a href="#">Koh &amp; Patashnik: What Students Think</a></h3>
             </div>
@@ -263,7 +269,9 @@
                 <div class="issue">
 
                     <div class="mag_cover">
-                        <div class="cover_image"><img src="cover_placeholder.jpg" alt="magazine cover"></div>
+                        <div class="cover_image">
+                            <img src="cover_placeholder.jpg" alt="magazine cover">
+                        </div>
                         <div class="preview">
                             <div class="article">
                                 <a href="#"><h2>Five Per Person</h2></a>
@@ -299,7 +307,9 @@
                 <div class="issue">
 
                     <div class="mag_cover">
-                        <div class="cover_image"><img src="cover_placeholder.jpg" alt="magazine cover"></div>
+                        <div class="cover_image">
+                            <img src="cover_placeholder.jpg" alt="magazine cover">
+                        </div>
                         <div class="preview">
                             <div class="article">
                                 <a href="#"><h2>Five Per Person</h2></a>
@@ -335,7 +345,9 @@
                 <div class="issue">
 
                     <div class="mag_cover">
-                        <div class="cover_image"><img src="cover_placeholder.jpg" alt="magazine cover"></div>
+                        <div class="cover_image">
+                            <img src="cover_placeholder.jpg" alt="magazine cover">
+                        </div>
                         <div class="preview">
                             <div class="article">
                                 <a href="#"><h2>Five Per Person</h2></a>
@@ -368,14 +380,16 @@
 
                 </div>
             </div>
+            <hr>
             <div class="sidekick-shell">
                 <img src="ad_placeholder.jpg" alt="Advertisement">
             </div>
+
         </div>
 
         <!-- Magazine more -->
         <div class="leaderboard">
-            <img src="https://dl.dropboxusercontent.com/u/34650508/crimson%20redesign/images/leaderboard.jpg" alt="Leaderboard" />
+            <img src="images/leaderboard.jpg" alt="Leaderboard" />
         </div>
         <footer>
             <div id="footer-first">
