@@ -1,3 +1,11 @@
+#magazine-scrutiny-content h1 {
+    margin-left: 5%;
+}
+
+#magazine-primary-second {
+    float: left;
+}
+
 #magazine-scrutiny-content {
     width: 100%;
     max-width: 838px;
@@ -8,6 +16,7 @@
     float: right;
     margin-right: 80px;
 }
+
 #magazine-secondary #magazine-nav {
     margin: 15px 0 15px 15px;
 }
@@ -239,7 +248,14 @@ magazine-more
     }
 }
 
-
+@media (max-width: 1000px) {
+    #magazine-primary-first, #magazine-primary-second {
+        width: 100%;
+    }
+    #magazine-spread img {
+        width: 100%;
+    }
+}
 
 
 
