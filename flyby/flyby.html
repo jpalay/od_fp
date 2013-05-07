@@ -23,17 +23,19 @@
                     itemSelector: '.blog-entry-wrapper',
                     // columnWidth: 320
                     columnWidth: function(containerWidth) {
-                        if (containerWidth >= 960)
+                        if (containerWidth >= 940)
                         {
-                            console.log(containerWidth / 3);
+                            console.log(containerWidth);
                             return containerWidth / 3;
                         }
-                        else if (containerWidth >= 640)
+                        else if (containerWidth >= 628)
                         {
+                            console.log(containerWidth);
                             return containerWidth / 2;
                         }
                         else
                         {
+                            console.log(containerWidth);
                             return containerWidth;
                         }
                     }

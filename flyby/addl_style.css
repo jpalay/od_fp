@@ -49,7 +49,7 @@
     min-width: 310px;
 }
 
-@media (min-width: 640px) and (max-width: 960px) {
+@media (min-width: 640px) and (max-width: 959px) {
     .blog-entry-wrapper
     {
         width: 47%;
