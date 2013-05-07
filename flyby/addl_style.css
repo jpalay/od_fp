@@ -20,12 +20,12 @@
 
 .series-wrapper
 {
-    min-width: 310px;
+    /*min-width: 310px;*/
     margin: 10px 0px;
 }
 
 #blog #blog-series {
-    width: 317px;
+    width: 100%;
     margin: 0px auto;
     float: none;
 }
