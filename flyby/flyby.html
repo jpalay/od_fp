@@ -14,6 +14,9 @@
     <script type="text/javascript">
         $(document).ready(function() {
             var $container = $('#blog-content');
+            $(function(){
+                $(".blog-entry-wrapper").css("float", "none");
+            });
             $container.imagesLoaded(function() {
                 $container.masonry({
                     // itemSelector: '.blog-entry, .sidekick-shell, #blog-series',
