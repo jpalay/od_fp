@@ -1,0 +1,394 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Harvard Crimson</title>
+    <link rel="stylesheet" href="fonts.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="mobile.js"></script>
+    <script type="text/javascript" src="masonry.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var $container = $('#blog-content');
+            $container.imagesLoaded(function() {
+                $container.masonry({
+                    itemSelector: '.blog-entry, .sidekick-shell, #blog-series',
+                    columnWidth: 320
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <div id="masthead">
+            <div id="masthead-first">
+                <h1><a href="#">The Harvard Crimson</a></h1>
+            </div>
+            <div id="masthead-second">
+                <div id="masthead-search">
+                    <input type="text" name="search" />
+                    <button type="submit">Search</button>
+                </div>
+                <nav id="masthead-nav-mobile">
+                    <ul>
+                        <li><a href="#">Sections</a></li>
+                    </ul>
+                </nav>
+                <nav id="masthead-nav" class="mobile-hidden">
+                    <ul>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Opinion</a></li>
+                        <li><a href="#">Magazine</a></li>
+                        <li><a href="#">Sports</a></li>
+                        <li><a href="#">Arts</a></li>
+                        <li><a href="#">Media</a></li>
+                        <li><a href="#">Flyby</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="content">
+        <div id="toolbar">
+            <nav id="toolbar-colophon">
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Advertise</a></li>
+                    <li><a href="#">Mobile</a></li>
+                    <li><a href="#">Subscribe</a></li>
+                    <li><a href="#">Classifieds</a></li>
+                </ul>
+            </nav>
+            <nav id="toolbar-social">
+                <ul>
+                    <li><a href="#" id="toolbar-facebook">Facebook</a></li>
+                    <li><a href="#" id="toolbar-twitter">Twitter</a></li>
+                    <li><a href="#" id="toolbar-feeds">Feeds</a></li>
+                </ul>
+            </nav>
+            <div id="toolbar-weather">
+                <a href="#"><span class="weather-locale">Cambridge, MA</span> Weather: 39F</a>
+            </div>
+        </div>
+        <div class="leaderboard">
+            <img src="images/leaderboard.jpg" alt="Leaderboard" />
+        </div>
+        <section id="blog">
+            <div id="blog-header">
+                <div id="blog-masthead">
+                    <h1 class="blog-title flyby-title"><a href="#"><span class="flyby-flyby">Flyby</span> Blog</a></h1>
+                    <nav id="blog-nav">
+                        <ul>
+                            <li><a href="#" id="nav-campus">Campus</a></li>
+                            <li><a href="#" id="nav-culture">Culture</a></li>
+                            <li><a href="#" id="nav-city">City</a></li>
+                            <li><a href="#" id="nav-politics">Politics</a></li>
+                            <li><a href="#" id="nav-arts">Arts</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="blog-cover">
+                    <div id="blog-features">
+                        <div class="blog-entry main-entry blog-campus">
+                            <div class="entry-image"><a href="#"><img src="images/flyby-main.jpg" alt="Feature" /></a></div>
+                            <div class="main-entry-container">
+                                <div class="main-entry-inner">
+                                    <h2><a href="#">Sacrifices for Lent: It's Never Too Late!</a></h2>
+                                    <div class="entry-info">
+                                        <div class="entry-category"><a href="#">Campus</a></div>
+                                        <div class="entry-byline">
+                                            <div class="entry-author"><a href="#">Jane Seo</a></div>
+                                            <div class="entry-date">Feb 16, 5:20 PM</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="blog-smaller">
+                            <div class="blog-entry smaller-entry blog-campus">
+                                <div class="entry-image"><a href="#"><img src="images/flyby-inebriation.jpg" alt="Inebriation" /></a></div>
+                                <div class="entry-category"><a href="#">Campus</a></div>
+                                <div class="entry-title"><a href="#">State of Inebriation: A Drinking Game</a></div>
+                            </div>
+                            <div class="blog-entry smaller-entry blog-campus">
+                                <div class="entry-image"><a href="#"><img src="images/flyby-inebriation.jpg" alt="Inebriation" /></a></div>
+                                <div class="entry-category"><a href="#">Campus</a></div>
+                                <div class="entry-title"><a href="#">State of Inebriation: A Drinking Game</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="blog-featured">
+                        <div class="blog-entry blog-campus">
+                            <div class="entry-image"><a href="#"><img src="images/flyby-inebriation.jpg" alt="Inebriation" /></a></div>
+                            <div class="entry-title"><a href="#">State of Inebriation: A Drinking Game</a></div>
+                            <div class="entry-info">
+                                <div class="entry-category"><a href="#">Campus</a></div>
+                                <div class="entry-byline">
+                                    <div class="entry-author"><a href="#">Jane Seo</a></div>
+                                    <div class="entry-date">Feb 16, 5:20 PM</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-entry blog-campus">
+                            <div class="entry-image"><a href="#"><img src="images/flyby-inebriation.jpg" alt="Inebriation" /></a></div>
+                            <div class="entry-title"><a href="#">State of Inebriation: A Drinking Game and an Inordinately Lengthy Title</a></div>
+                            <div class="entry-info">
+                                <div class="entry-category"><a href="#">Campus</a></div>
+                                <div class="entry-byline">
+                                    <div class="entry-author"><a href="#">Jane Seo</a></div>
+                                    <div class="entry-date">Feb 16, 5:20 PM</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-entry blog-campus">
+                            <div class="entry-image"><a href="#"><img src="images/flyby-inebriation.jpg" alt="Inebriation" /></a></div>
+                            <div class="entry-title"><a href="#">State of Inebriation: A Drinking Game to Calm the Liver</a></div>
+                            <div class="entry-info">
+                                <div class="entry-category"><a href="#">Campus</a></div>
+                                <div class="entry-byline">
+                                    <div class="entry-author"><a href="#">Jane Seo</a></div>
+                                    <div class="entry-date">Feb 16, 5:20 PM</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-entry blog-arts">
+                            <div class="entry-image"><a href="#"><img src="images/flyby-inebriation.jpg" alt="Inebriation" /></a></div>
+                            <div class="entry-title"><a href="#">State of Inebriation</a></div>
+                            <div class="entry-info">
+                                <div class="entry-category"><a href="#">Arts</a></div>
+                                <div class="entry-byline">
+                                    <div class="entry-author"><a href="#">Jane Seo</a></div>
+                                    <div class="entry-date">Feb 16, 5:20 PM</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="blog-content">
+                <div class="blog-entry blog-culture">
+                    <div class="entry-image"><a href="#"><img src="images/flyby-takemura.jpg" alt="Takemura" /></a></div>
+                    <div class="entry-content">
+                        <div class="entry-series"><a href="#">Food Talk</a></div>
+                        <h3 class="entry-title"><a href="#">Takemura Review</a></h3>
+                        <p>Getting an authentic taste of Asia in America is a challenge, especially for someone who has lived in an Asian country for most of her life.</p>
+                    </div>
+                    <div class="entry-info">
+                        <div class="entry-category"><a href="#">Culture</a></div>
+                        <div class="entry-byline">
+                            <div class="entry-author"><a href="#">Jane Seo</a></div>
+                            <div class="entry-date">Feb 16, 5:20 PM</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-entry blog-culture">
+                    <div class="entry-image"><a href="#"><img src="images/flyby-pie.jpg" alt="Pie" /></a></div>
+                    <div class="entry-content">
+                        <h3 class="entry-title"><a href="#">Sacrifices for Lent: It's Never Too Late!</a></h3>
+                        <p>Ash Wednesday has come and gone, but it's not too late to participate in Lent, a Christian tradition wherein observers give up a luxury for the 40 days leading up to Easter Sunday.</p>
+                    </div>
+                    <div class="entry-info">
+                        <div class="entry-category"><a href="#">Culture</a></div>
+                        <div class="entry-byline">
+                            <div class="entry-author"><a href="#">Lynn Miao</a></div>
+                            <div class="entry-date">Feb 16, 5:20 PM</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-entry blog-politics">
+                    <div class="entry-image"><a href="#"><img src="images/flyby-inebriation.jpg" alt="Inebriation" /></a></div>
+                    <div class="entry-content">
+                        <h3 class="entry-title"><a href="#">State of Inebriation: A Drinking Game</a></h3>
+                        <p>Stressed over the state of our union or depressed about the terrible weather?</p>
+                    </div>
+                    <div class="entry-info">
+                        <div class="entry-category"><a href="#">Politics</a></div>
+                        <div class="entry-byline">
+                            <div class="entry-author"><a href="#">Charlotte M. Krieger</a></div>
+                            <div class="entry-date">Feb 16, 5:20 PM</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-entry blog-campus">
+                    <div class="entry-image"><a href="#"><img src="images/flyby-procrastination.jpg" alt="Procrastination" /></a></div>
+                    <div class="entry-content">
+                        <h3 class="entry-title"><a href="#">Procrastination Playlist: An Audio Guide to 'Studying'</a></h3>
+                        <p>Now that the semester has begun in earnest, long nights at Lamont await you.</p>
+                    </div>
+                    <div class="entry-info">
+                        <div class="entry-category"><a href="#">Campus</a></div>
+                        <div class="entry-byline">
+                            <div class="entry-author"><a href="#">Charlotte M. Krieger</a></div>
+                            <div class="entry-date">Feb 16, 5:20 PM</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-entry blog-city">
+                    <div class="entry-image"><a href="#"><img src="images/flyby-snow.jpg" alt="Snow" /></a></div>
+                    <div class="entry-content">
+                        <h3 class="entry-title"><a href="#">To Do: Snow Day</a></h3>
+                        <p>Let's be real, this is the most snow we're going to have for a while.</p>
+                    </div>
+                    <div class="entry-info">
+                        <div class="entry-category"><a href="#">City</a></div>
+                        <div class="entry-byline">
+                            <div class="entry-author"><a href="#">Laya Anasu</a>, <a href="#">John A. Elzinga</a>, and <a href="#">Claire M. McLaughlin</a></div>
+                            <div class="entry-date">Feb 16, 5:20 PM</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-entry blog-arts">
+                    <div class="entry-image"><a href="#"><img src="images/flyby-fall.jpg" alt="Fall" /></a></div>
+                    <div class="entry-content">
+                        <h3 class="entry-title"><a href="#">Fall Out Boy: Point-Counterpoint</a></h3>
+                        <p>Apparently tired of extinction, Fall Out Boy is coming out with a new album, "Save Rock and Roll," and touring in a bid to win back the shattered fragments of the teenage hearts they captured so many years ago.</p>
+                    </div>
+                    <div class="entry-info">
+                        <div class="entry-category"><a href="#">Arts</a></div>
+                        <div class="entry-byline">
+                            <div class="entry-author"><a href="#">Laya Anasu</a>, <a href="#">John A. Elzinga</a>, and <a href="#">Claire M. McLaughlin</a></div>
+                            <div class="entry-date">Feb 16, 5:20 PM</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-entry blog-politics">
+                    <div class="entry-image"><a href="#"><img src="images/flyby-inebriation.jpg" alt="Inebriation" /></a></div>
+                    <div class="entry-content">
+                        <h3 class="entry-title"><a href="#">State of Inebriation: A Drinking Game</a></h3>
+                        <p>Stressed over the state of our union or depressed about the terrible weather?</p>
+                    </div>
+                    <div class="entry-info">
+                        <div class="entry-category"><a href="#">Politics</a></div>
+                        <div class="entry-byline">
+                            <div class="entry-author"><a href="#">Charlotte M. Krieger</a></div>
+                            <div class="entry-date">Feb 16, 5:20 PM</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidekick-shell">
+                    <div class="sidekick">
+                        <a href="#"><img src="images/sidekick.jpg" /></a>
+                    </div>
+                </div>
+                <div class="blog-entry blog-culture">
+                    <div class="entry-image"><a href="#"><img src="images/flyby-takemura.jpg" alt="Takemura" /></a></div>
+                    <div class="entry-content">
+                        <div class="entry-series"><a href="#">Food Talk</a></div>
+                        <h3 class="entry-title"><a href="#">Takemura Review</a></h3>
+                        <p>Getting an authentic taste of Asia in America is a challenge, especially for someone who has lived in an Asian country for most of her life.</p>
+                    </div>
+                    <div class="entry-info">
+                        <div class="entry-category"><a href="#">Culture</a></div>
+                        <div class="entry-byline">
+                            <div class="entry-author"><a href="#">Jane Seo</a></div>
+                            <div class="entry-date">Feb 16, 5:20 PM</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="blog-series">
+                    <h3>Series</h3>
+                    <div class="blog-series">
+                        <img src="images/flyby-securitas.jpg" alt="Securitas" />
+                        <a href="#">Securitas</a>
+                    </div>
+                    <div class="blog-series">
+                        <img src="images/flyby-around.jpg" alt="Around the Ivies" />
+                        <a href="#">Around the Ivies Plus</a>
+                    </div>
+                    <div class="blog-series">
+                        <img src="images/flyby-dining.jpg" alt="Dining Delights" />
+                        <a href="#">Dining Delights</a>
+                    </div>
+                    <div class="blog-series">
+                        <img src="images/flyby-week.jpg" alt="This Week in Our Archives" />
+                        <a href="#">This Week in Our Archives</a>
+                    </div>
+                    <div class="blog-series">
+                        <img src="images/flyby-decor.jpg" alt="Dorm Room Decor" />
+                        <a href="#">Dorm Room Decor</a>
+                    </div>
+                    <div class="blog-series">
+                        <img src="images/flyby-food.jpg" alt="Food Talk" />
+                        <a href="#">Food Talk</a>
+                    </div>
+                    <div class="blog-series">
+                        <img src="images/flyby-how.jpg" alt="How To" />
+                        <a href="#">How To</a>
+                    </div>
+                    <div class="blog-series">
+                        <img src="images/flyby-reading.jpg" alt="Close Reading" />
+                        <a href="#">Close Reading</a>
+                    </div>
+                </div>
+                <div class="blog-entry blog-city">
+                    <div class="entry-image"><a href="#"><img src="images/flyby-snow.jpg" alt="Snow" /></a></div>
+                    <div class="entry-content">
+                        <h3 class="entry-title"><a href="#">To Do: Snow Day</a></h3>
+                        <p>Let's be real, this is the most snow we're going to have for a while.</p>
+                    </div>
+                    <div class="entry-info">
+                        <div class="entry-category"><a href="#">City</a></div>
+                        <div class="entry-byline">
+                            <div class="entry-author"><a href="#">Laya Anasu</a>, <a href="#">John A. Elzinga</a>, and <a href="#">Claire M. McLaughlin</a></div>
+                            <div class="entry-date">Feb 16, 5:20 PM</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidekick-shell">
+                    <div class="sidekick">
+                        <a href="#"><img src="images/sidekick.jpg" /></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="row">
+            <div class="row article">
+                <a href="#"><img src="images/arts-inrow.jpg" /></a>
+                <div class="row-section article-section"><a href="#">Arts</a></div>
+                <h3><a href="#">Dancing in the Street</a></h3>
+            </div>
+            <div class="row article">
+                <a href="#"><img src="images/sports-inrow.jpg" /></a>
+                <div class="row-section article-section"><a href="#">Sports</a></div>
+                <h3><a href="#">Crimson Grapplers Struggle at Midlands</a></h3>
+            </div>
+            <div class="row article">
+                <a href="#"><img src="images/fm-inrow.jpg" /></a>
+                <div class="row-section article-section"><a href="#">Magazine</a></div>
+                <h3><a href="#">Ten Questions with Diane L. Eck</a></h3>
+            </div>
+            <div class="row article">
+                <a href="#"><img src="images/opinion-inrow.jpg" /></a>
+                <div class="row-section article-section"><a href="#">Opinion</a></div>
+                <h3><a href="#">Koh &amp; Patashnik: What Students Think</a></h3>
+            </div>
+        </section>
+        <div class="leaderboard">
+            <img src="images/leaderboard.jpg" alt="Leaderboard" />
+        </div>
+        <footer>
+            <div id="footer-first">
+                <h1><a href="#">The Harvard Crimson</a></h1>
+            </div>
+            <div id="footer-second">
+                <p>Copyright &copy; 2012 The Harvard Crimson, Inc.</p>
+                <nav id="footer-nav">
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Rights &amp; Permissions</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Corrections</a></li>
+                        <li><a href="#">Subscriptions</a></li>
+                        <li><a href="#">Archives</a></li>
+                        <li><a href="#">Writers</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

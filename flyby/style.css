@@ -1353,56 +1353,6 @@ Flyby
 #blog .blog-title .flyby-flyby {
 	color: #fcffc3;
 }
-#blog nav {
-	border-bottom: 1px solid #ccc;
-}
-#blog nav ul {
-	margin: 0;
-	padding: 0;
-	float: right;
-}
-#blog nav ul li {
-	list-style: none;
-	display: inline;
-}
-#blog nav ul li a {
-	font: 1.2em 'Colaborate Light', 'Lucida Sans Unicode', sans-serif;
-	color: #ccc;
-	text-transform: uppercase;
-	display: block;
-	float: left;
-	border-bottom: 5px solid white;
-	padding: 10px 0;
-	margin: 0 15px;
-}
-#blog nav ul li a:hover, #blog nav ul li a:active {
-	color: #666;
-	text-decoration: none;
-	-moz-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	-webkit-transition: all 0.3s;
-	transition: all 0.3s;
-}
-#blog nav ul li a#nav-campus:hover, #blog nav ul li a#nav-campus:active {
-	color: #ba0600;
-	border-color: #ba0600;
-}
-#blog nav ul li a#nav-culture:hover, #blog nav ul li a#nav-culture:active {
-	color: #71006e;
-	border-color: #71006e;
-}
-#blog nav ul li a#nav-city:hover, #blog nav ul li a#nav-city:active {
-	color: #007405;
-	border-color: #007405;
-}
-#blog nav ul li a#nav-politics:hover, #blog nav ul li a#nav-politics:active {
-	color: #363988;
-	border-color: #363988;
-}
-#blog nav ul li a#nav-arts:hover, #blog nav ul li a#nav-arts:active {
-	color: #d67d00;
-	border-color: #d67d00;
-}
 #blog .main-entry-container {
 	margin-top: -478px;
 	background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
