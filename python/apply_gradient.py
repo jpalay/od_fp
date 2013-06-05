@@ -1,12 +1,16 @@
 #!/usr/bin/env python
 import Image, ImageDraw, os, sys
 
-USAGE = "Usage: ./apply_gradient.py <image> <mask_color> " + \
-          "<max_mask_opacity (0-255)> <min_mask_opacity (0-255)>" + \
-          " <direction (up, down)>"
-UP = "up"
-DOWN = "down"
+# SETTING VARIABLES FROM COMMAND LINE
+UP = 'up'
+DOWN = 'down'
 DIRS = [UP, DOWN]
+
+name        = 'test.jpg'
+color       = 'white'
+max_opacity = 255.0
+min_opacity = 0.0
+direction   = UP
 
 try:
     name        = sys.argv[1];
@@ -14,38 +18,37 @@ try:
     max_opacity = min(255., float(sys.argv[3]));
     min_opacity = max(0., float(sys.argv[4]));
 except (IndexError, ValueError):
-    print USAGE
-    exit()
-
+    pass
 try:
     direction = sys.argv[5]
     if direction not in DIRS:
-        raise ValueError
-except IndexError:
-    direction = UP
-except ValueError:
-    print USAGE
-    exit()
+        direction = UP2
+except (IndexError, ValueError):
+    pass
 
-
+# Actual program starts
 im = Image.open(name)
 
 if im.mode != 'RGBA':
     im = im.convert('RGBA')
 
-gradient = Image.new('L', (1, im.size[1]), color)
-height = gradient.size[1]
+gradient = Image.new('L', (1, im.size[1]))
+height = gradient.size[1] 
+
 if direction == UP:
     for y in range(height):
-        print min_opacity + (max_opacity - min_opacity) / (height) * y
         gradient.putpixel((0, y), (min_opacity + \
-                    (max_opacity - min_opacity) / (height) * y))
+                    (max_opacity - min_opacity) / (height) * (y + 1)))
 
 if direction == DOWN:
     for y in range(height):
         gradient.putpixel((0, y), min_opacity + \
-            (max_opacity - min_opacity) / (height) * (height - y))
+            (max_opacity - min_opacity) / (height) * (height - y - 1))
 
-alpha = gradient.resize(im.size, Image.ANTIALIAS)
-im.paste(alpha, (0, 0), alpha)
-im.show()
+overlay = gradient.resize(im.size, Image.ANTIALIAS)
+alpha = overlay.rotate(180)
+im.putalpha(alpha)
+background = Image.new('RGBA', im.size, color)
+background.paste(im, (0,0), im)
+background.show()
+# background.save('../flyby/images/flyby-main-gradient.jpg')
